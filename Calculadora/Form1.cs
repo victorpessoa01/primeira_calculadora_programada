@@ -27,5 +27,10 @@ namespace Calculadora
 
 
         }
+
+        private void buttonAC_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

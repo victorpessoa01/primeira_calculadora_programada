@@ -198,6 +198,7 @@
             this.buttonAC.TabIndex = 14;
             this.buttonAC.Text = "AC";
             this.buttonAC.UseVisualStyleBackColor = false;
+            this.buttonAC.Click += new System.EventHandler(this.buttonAC_Click);
             // 
             // listBoxTela
             // 
