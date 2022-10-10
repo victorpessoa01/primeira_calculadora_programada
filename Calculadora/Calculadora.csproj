@@ -86,5 +86,8 @@
   <ItemGroup>
     <None Include="Resources\arte-para-o-tec-por-tras-da-calculadora-1577992106273_v2_1200x12001.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
