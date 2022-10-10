@@ -20,11 +20,6 @@ namespace Calculadora
             InitializeComponent();
         }
 
-        private void button16_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             textBoxTela.Text += "1";
@@ -93,6 +88,8 @@ namespace Calculadora
         private void button12_Click(object sender, EventArgs e)
         {
             valor2 = decimal.Parse(textBoxTela.Text, CultureInfo.InvariantCulture);
+
+            labelOpera.Text = "=";
 
             if (opera == "SOMA")
             {

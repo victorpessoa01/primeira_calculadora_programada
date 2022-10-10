@@ -45,9 +45,9 @@
             this.buttonAC = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.textBoxTela = new System.Windows.Forms.TextBox();
-            this.labelOpera = new System.Windows.Forms.Label();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
+            this.labelOpera = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -252,23 +252,13 @@
             // textBoxTela
             // 
             this.textBoxTela.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxTela.Font = new System.Drawing.Font("OCR A Extended", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxTela.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxTela.Location = new System.Drawing.Point(23, 29);
             this.textBoxTela.Multiline = true;
             this.textBoxTela.Name = "textBoxTela";
             this.textBoxTela.Size = new System.Drawing.Size(355, 61);
             this.textBoxTela.TabIndex = 16;
             this.textBoxTela.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // labelOpera
-            // 
-            this.labelOpera.AutoSize = true;
-            this.labelOpera.BackColor = System.Drawing.Color.Transparent;
-            this.labelOpera.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelOpera.Location = new System.Drawing.Point(31, 40);
-            this.labelOpera.Name = "labelOpera";
-            this.labelOpera.Size = new System.Drawing.Size(0, 31);
-            this.labelOpera.TabIndex = 17;
             // 
             // button11
             // 
@@ -295,6 +285,17 @@
             this.button12.UseVisualStyleBackColor = false;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
+            // labelOpera
+            // 
+            this.labelOpera.AutoSize = true;
+            this.labelOpera.BackColor = System.Drawing.Color.White;
+            this.labelOpera.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.labelOpera.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelOpera.Location = new System.Drawing.Point(31, 43);
+            this.labelOpera.Name = "labelOpera";
+            this.labelOpera.Size = new System.Drawing.Size(0, 31);
+            this.labelOpera.TabIndex = 20;
+            // 
             // FormCal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -302,9 +303,9 @@
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.BackgroundImage = global::Calculadora.Properties.Resources.Design_sem_nome;
             this.ClientSize = new System.Drawing.Size(400, 406);
+            this.Controls.Add(this.labelOpera);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
-            this.Controls.Add(this.labelOpera);
             this.Controls.Add(this.textBoxTela);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.buttonAC);
@@ -353,9 +354,9 @@
         private System.Windows.Forms.Button buttonAC;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.TextBox textBoxTela;
-        private System.Windows.Forms.Label labelOpera;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Label labelOpera;
     }
 }
 
